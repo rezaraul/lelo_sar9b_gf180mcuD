@@ -4,5 +4,5 @@ GF180MCU-D port of [wulffern/lelo_sar9b_ihp13g2](https://github.com/wulffern/lel
 All circuits, generators and flow scripts are his work; this repository adapts them
 to the open GF180MCU-D PDK (3.3 V devices, 5 metals) by Reza Papi.
 
-Required cicpy changes: [rezaraul/cicpy, branch gf180mcu](https://github.com/rezaraul/cicpy/tree/gf180mcu).
-Status: DRC clean (Magic) and LVS clean (netgen); not yet simulated.
+Required tool changes: [rezaraul/cicpy, branch gf180mcu](https://github.com/rezaraul/cicpy/tree/gf180mcu) and [rezaraul/ciccreator, branch gf180mcu](https://github.com/rezaraul/ciccreator/tree/gf180mcu).
+Status: SAR9B_CV and SAR8B_CV DRC clean (Magic) and LVS clean (netgen); not yet simulated.
