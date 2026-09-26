@@ -1,0 +1,427 @@
+magic
+tech gf180mcuD
+magscale 1 10
+timestamp 1790395200
+<< checkpaint >>
+rect 0 -808 25308 7360
+<< metal1 >>
+rect 0 -200 25308 -152
+rect 0 -200 25308 -152
+rect 0 -504 25308 -292
+rect 0 -504 25308 -292
+rect 0 -808 25308 -596
+rect 0 -808 25308 -596
+rect 23274 4328 23418 4376
+rect 22990 4760 23274 4808
+rect 23274 4328 23322 4808
+rect 23370 4280 23522 4328
+<< metal2 >>
+rect 466 -200 522 1000
+rect 5102 -200 5158 1000
+rect 6090 -200 6146 1000
+rect 10726 -200 10782 1000
+rect 11714 -200 11770 1000
+rect 16350 -200 16406 1000
+rect 17338 -200 17394 1000
+rect 21974 -200 22030 1000
+rect 22990 1560 23198 1616
+rect 23198 1080 23522 1136
+rect 22990 3480 23198 3536
+rect 23198 1080 23254 3536
+rect 23522 1720 23730 1776
+rect 22990 5720 23730 5776
+rect 23730 1720 23786 5776
+<< metal4 >>
+rect 874 -504 1086 7040
+rect 4538 -504 4750 7040
+rect 6498 -504 6710 7040
+rect 10162 -504 10374 7040
+rect 12122 -504 12334 7040
+rect 15786 -504 15998 7040
+rect 17746 -504 17958 7040
+rect 21410 -504 21622 7040
+rect 23370 -504 23582 640
+rect 1634 -808 1846 7040
+rect 3778 -808 3990 7040
+rect 7258 -808 7470 7040
+rect 9402 -808 9614 7040
+rect 12882 -808 13094 7040
+rect 15026 -808 15238 7040
+rect 18506 -808 18718 7040
+rect 20650 -808 20862 7040
+rect 24130 -808 24342 640
+rect 22838 7280 23142 7360
+rect 22838 -808 23142 -728
+rect 22838 7280 23142 7360
+rect 22990 2200 23198 2256
+rect 22990 7280 23198 7336
+rect 23198 2200 23254 7336
+rect 22838 -808 23142 -728
+rect 22726 920 22990 976
+rect 22726 -808 22990 -752
+rect 22726 -808 22782 976
+<< metal3 >>
+rect 22726 3160 22990 3216
+rect 22726 2680 23522 2736
+rect 22726 5400 22990 5456
+rect 22726 2680 22782 5456
+rect 25004 4280 25308 4360
+rect 25004 6520 25308 6600
+rect 25004 4920 25308 5000
+rect 342 -808 646 -728
+rect 4978 -808 5282 -728
+rect 5966 -808 6270 -728
+rect 10602 -808 10906 -728
+rect 11590 -808 11894 -728
+rect 16226 -808 16530 -728
+rect 17214 -808 17518 -728
+rect 21850 -808 22154 -728
+rect 874 7280 1178 7360
+rect 4446 7280 4750 7360
+rect 6498 7280 6802 7360
+rect 10070 7280 10374 7360
+rect 12122 7280 12426 7360
+rect 15694 7280 15998 7360
+rect 17746 7280 18050 7360
+rect 21318 7280 21622 7360
+rect 23370 7280 23674 7360
+rect 342 -808 646 -728
+rect 466 -808 522 2280
+rect 4978 -808 5282 -728
+rect 5102 -808 5158 2280
+rect 5966 -808 6270 -728
+rect 6090 -808 6146 2280
+rect 10602 -808 10906 -728
+rect 10726 -808 10782 2280
+rect 11590 -808 11894 -728
+rect 11714 -808 11770 2280
+rect 16226 -808 16530 -728
+rect 16350 -808 16406 2280
+rect 17214 -808 17518 -728
+rect 17338 -808 17394 2280
+rect 21850 -808 22154 -728
+rect 21974 -808 22030 2280
+rect 21318 7280 21622 7360
+rect 21442 6840 21498 7360
+rect 17746 7280 18050 7360
+rect 17870 6840 17926 7360
+rect 15694 7280 15998 7360
+rect 15818 6840 15874 7360
+rect 12122 7280 12426 7360
+rect 12246 6840 12302 7360
+rect 10070 7280 10374 7360
+rect 10194 6840 10250 7360
+rect 6498 7280 6802 7360
+rect 6622 6840 6678 7360
+rect 4446 7280 4750 7360
+rect 4570 6840 4626 7360
+rect 874 7280 1178 7360
+rect 998 6840 1054 7360
+rect 25004 4280 25308 4360
+rect 23522 4280 23730 4336
+rect 23730 4280 25156 4336
+rect 23730 4280 23786 4336
+rect 25004 4920 25308 5000
+rect 23522 4920 23730 4976
+rect 23730 4920 25156 4976
+rect 23730 4920 23786 4976
+rect 25004 6520 25308 6600
+rect 23522 6520 23730 6576
+rect 23730 6520 25156 6576
+rect 23730 6520 23786 6576
+rect 23370 7280 23674 7360
+rect 23494 7160 23550 7360
+use LELOSAR_DFQNX1_CV XB07 
+transform 1 0 0 0 1 0
+box 0 0 2812 7040
+use LELOSAR_DFQNX1_CV XC08 
+transform -1 0 5624 0 1 0
+box 5624 0 8436 7040
+use LELOSAR_DFQNX1_CV XD09 
+transform 1 0 5624 0 1 0
+box 5624 0 8436 7040
+use LELOSAR_DFQNX1_CV XE10 
+transform -1 0 11248 0 1 0
+box 11248 0 14060 7040
+use LELOSAR_DFQNX1_CV XF11 
+transform 1 0 11248 0 1 0
+box 11248 0 14060 7040
+use LELOSAR_DFQNX1_CV XG12 
+transform -1 0 16872 0 1 0
+box 16872 0 19684 7040
+use LELOSAR_DFQNX1_CV XH13 
+transform 1 0 16872 0 1 0
+box 16872 0 19684 7040
+use LELOSAR_DFQNX1_CV XI14 
+transform -1 0 22496 0 1 0
+box 22496 0 25308 7040
+use LELOSAR_TAPCELLB_CV XA1 
+transform 1 0 22496 0 1 0
+box 22496 0 25308 640
+use LELOSAR_IVX1_CV XA2 
+transform 1 0 22496 0 1 640
+box 22496 640 25308 1280
+use LELOSAR_IVX1_CV XA3 
+transform 1 0 22496 0 1 1280
+box 22496 1280 25308 1920
+use LELOSAR_BFX1_CV XA4 
+transform 1 0 22496 0 1 1920
+box 22496 1920 25308 2880
+use LELOSAR_ORX1_CV XA5 
+transform 1 0 22496 0 1 2880
+box 22496 2880 25308 4480
+use LELOSAR_IVX1_CV XA5a 
+transform 1 0 22496 0 1 4480
+box 22496 4480 25308 5120
+use LELOSAR_ANX1_CV XA6 
+transform 1 0 22496 0 1 5120
+box 22496 5120 25308 6720
+use LELOSAR_TIEL_CV XA2 
+transform 1 0 22496 0 1 6720
+box 22496 6720 25308 7360
+use LELOSAR_cut_M1M2_2x1 xcut0 
+transform 1 0 388 0 1 920
+box 388 920 600 980
+use LELOSAR_cut_M1M2_2x1 xcut1 
+transform 1 0 388 0 1 -200
+box 388 -200 600 -140
+use LELOSAR_cut_M1M2_2x1 xcut2 
+transform 1 0 5024 0 1 920
+box 5024 920 5236 980
+use LELOSAR_cut_M1M2_2x1 xcut3 
+transform 1 0 5024 0 1 -200
+box 5024 -200 5236 -140
+use LELOSAR_cut_M1M2_2x1 xcut4 
+transform 1 0 6012 0 1 920
+box 6012 920 6224 980
+use LELOSAR_cut_M1M2_2x1 xcut5 
+transform 1 0 6012 0 1 -200
+box 6012 -200 6224 -140
+use LELOSAR_cut_M1M2_2x1 xcut6 
+transform 1 0 10648 0 1 920
+box 10648 920 10860 980
+use LELOSAR_cut_M1M2_2x1 xcut7 
+transform 1 0 10648 0 1 -200
+box 10648 -200 10860 -140
+use LELOSAR_cut_M1M2_2x1 xcut8 
+transform 1 0 11636 0 1 920
+box 11636 920 11848 980
+use LELOSAR_cut_M1M2_2x1 xcut9 
+transform 1 0 11636 0 1 -200
+box 11636 -200 11848 -140
+use LELOSAR_cut_M1M2_2x1 xcut10 
+transform 1 0 16272 0 1 920
+box 16272 920 16484 980
+use LELOSAR_cut_M1M2_2x1 xcut11 
+transform 1 0 16272 0 1 -200
+box 16272 -200 16484 -140
+use LELOSAR_cut_M1M2_2x1 xcut12 
+transform 1 0 17260 0 1 920
+box 17260 920 17472 980
+use LELOSAR_cut_M1M2_2x1 xcut13 
+transform 1 0 17260 0 1 -200
+box 17260 -200 17472 -140
+use LELOSAR_cut_M1M2_2x1 xcut14 
+transform 1 0 21896 0 1 920
+box 21896 920 22108 980
+use LELOSAR_cut_M1M2_2x1 xcut15 
+transform 1 0 21896 0 1 -200
+box 21896 -200 22108 -140
+use LELOSAR_cut_M1M4_2x2 xcut16 
+transform 1 0 874 0 1 -504
+box 874 -504 1086 -292
+use LELOSAR_cut_M1M4_2x2 xcut17 
+transform 1 0 4538 0 1 -504
+box 4538 -504 4750 -292
+use LELOSAR_cut_M1M4_2x2 xcut18 
+transform 1 0 6498 0 1 -504
+box 6498 -504 6710 -292
+use LELOSAR_cut_M1M4_2x2 xcut19 
+transform 1 0 10162 0 1 -504
+box 10162 -504 10374 -292
+use LELOSAR_cut_M1M4_2x2 xcut20 
+transform 1 0 12122 0 1 -504
+box 12122 -504 12334 -292
+use LELOSAR_cut_M1M4_2x2 xcut21 
+transform 1 0 15786 0 1 -504
+box 15786 -504 15998 -292
+use LELOSAR_cut_M1M4_2x2 xcut22 
+transform 1 0 17746 0 1 -504
+box 17746 -504 17958 -292
+use LELOSAR_cut_M1M4_2x2 xcut23 
+transform 1 0 21410 0 1 -504
+box 21410 -504 21622 -292
+use LELOSAR_cut_M1M4_2x2 xcut24 
+transform 1 0 23370 0 1 -504
+box 23370 -504 23582 -292
+use LELOSAR_cut_M1M4_2x2 xcut25 
+transform 1 0 1634 0 1 -808
+box 1634 -808 1846 -596
+use LELOSAR_cut_M1M4_2x2 xcut26 
+transform 1 0 3778 0 1 -808
+box 3778 -808 3990 -596
+use LELOSAR_cut_M1M4_2x2 xcut27 
+transform 1 0 7258 0 1 -808
+box 7258 -808 7470 -596
+use LELOSAR_cut_M1M4_2x2 xcut28 
+transform 1 0 9402 0 1 -808
+box 9402 -808 9614 -596
+use LELOSAR_cut_M1M4_2x2 xcut29 
+transform 1 0 12882 0 1 -808
+box 12882 -808 13094 -596
+use LELOSAR_cut_M1M4_2x2 xcut30 
+transform 1 0 15026 0 1 -808
+box 15026 -808 15238 -596
+use LELOSAR_cut_M1M4_2x2 xcut31 
+transform 1 0 18506 0 1 -808
+box 18506 -808 18718 -596
+use LELOSAR_cut_M1M4_2x2 xcut32 
+transform 1 0 20650 0 1 -808
+box 20650 -808 20862 -596
+use LELOSAR_cut_M1M4_2x2 xcut33 
+transform 1 0 24130 0 1 -808
+box 24130 -808 24342 -596
+use LELOSAR_cut_M1M2_2x1 xcut34 
+transform 1 0 22838 0 1 1560
+box 22838 1560 23050 1620
+use LELOSAR_cut_M1M2_2x1 xcut35 
+transform 1 0 23370 0 1 1080
+box 23370 1080 23582 1140
+use LELOSAR_cut_M1M2_2x1 xcut36 
+transform 1 0 22838 0 1 3480
+box 22838 3480 23050 3540
+use LELOSAR_cut_M1M2_2x1 xcut37 
+transform 1 0 23370 0 1 1720
+box 23370 1720 23582 1780
+use LELOSAR_cut_M1M2_2x1 xcut38 
+transform 1 0 22838 0 1 5720
+box 22838 5720 23050 5780
+use LELOSAR_cut_M1M3_2x1 xcut39 
+transform 1 0 22930 0 1 3160
+box 22930 3160 23142 3220
+use LELOSAR_cut_M1M3_2x1 xcut40 
+transform 1 0 23462 0 1 2680
+box 23462 2680 23674 2740
+use LELOSAR_cut_M1M3_2x1 xcut41 
+transform 1 0 22930 0 1 5400
+box 22930 5400 23142 5460
+use LELOSAR_cut_M1M3_2x1 xcut42 
+transform 1 0 388 0 1 2200
+box 388 2200 600 2260
+use LELOSAR_cut_M1M3_2x1 xcut43 
+transform 1 0 5024 0 1 2200
+box 5024 2200 5236 2260
+use LELOSAR_cut_M1M3_2x1 xcut44 
+transform 1 0 6012 0 1 2200
+box 6012 2200 6224 2260
+use LELOSAR_cut_M1M3_2x1 xcut45 
+transform 1 0 10648 0 1 2200
+box 10648 2200 10860 2260
+use LELOSAR_cut_M1M3_2x1 xcut46 
+transform 1 0 11636 0 1 2200
+box 11636 2200 11848 2260
+use LELOSAR_cut_M1M3_2x1 xcut47 
+transform 1 0 16272 0 1 2200
+box 16272 2200 16484 2260
+use LELOSAR_cut_M1M3_2x1 xcut48 
+transform 1 0 17260 0 1 2200
+box 17260 2200 17472 2260
+use LELOSAR_cut_M1M3_2x1 xcut49 
+transform 1 0 21896 0 1 2200
+box 21896 2200 22108 2260
+use LELOSAR_cut_M1M3_2x1 xcut50 
+transform 1 0 21364 0 1 6840
+box 21364 6840 21576 6900
+use LELOSAR_cut_M1M3_2x1 xcut51 
+transform 1 0 17792 0 1 6840
+box 17792 6840 18004 6900
+use LELOSAR_cut_M1M3_2x1 xcut52 
+transform 1 0 15740 0 1 6840
+box 15740 6840 15952 6900
+use LELOSAR_cut_M1M3_2x1 xcut53 
+transform 1 0 12168 0 1 6840
+box 12168 6840 12380 6900
+use LELOSAR_cut_M1M3_2x1 xcut54 
+transform 1 0 10116 0 1 6840
+box 10116 6840 10328 6900
+use LELOSAR_cut_M1M3_2x1 xcut55 
+transform 1 0 6544 0 1 6840
+box 6544 6840 6756 6900
+use LELOSAR_cut_M1M3_2x1 xcut56 
+transform 1 0 4492 0 1 6840
+box 4492 6840 4704 6900
+use LELOSAR_cut_M1M3_2x1 xcut57 
+transform 1 0 920 0 1 6840
+box 920 6840 1132 6900
+use LELOSAR_cut_M1M3_2x1 xcut58 
+transform 1 0 23370 0 1 4280
+box 23370 4280 23582 4340
+use LELOSAR_cut_M1M3_2x1 xcut59 
+transform 1 0 23370 0 1 4920
+box 23370 4920 23582 4980
+use LELOSAR_cut_M1M3_2x1 xcut60 
+transform 1 0 23370 0 1 6520
+box 23370 6520 23582 6580
+use LELOSAR_cut_M1M4_2x1 xcut61 
+transform 1 0 22838 0 1 2200
+box 22838 2200 23050 2260
+use LELOSAR_cut_M1M3_2x1 xcut62 
+transform 1 0 23416 0 1 7160
+box 23416 7160 23628 7220
+use LELOSAR_cut_M1M4_2x1 xcut63 
+transform 1 0 22930 0 1 920
+box 22930 920 23142 980
+<< labels >>
+flabel metal1 s 0 -200 25308 -152 0 FreeSans 400 0 0 0 DONE
+port 22 nsew signal bidirectional
+flabel metal1 s 0 -504 25308 -292 0 FreeSans 400 0 0 0 AVSS
+port 24 nsew signal bidirectional
+flabel metal1 s 0 -808 25308 -596 0 FreeSans 400 0 0 0 AVDD
+port 23 nsew signal bidirectional
+flabel metal4 s 22838 7280 23142 7360 0 FreeSans 400 0 0 0 CKS
+port 1 nsew signal bidirectional
+flabel metal4 s 22838 -808 23142 -728 0 FreeSans 400 0 0 0 ENABLE
+port 2 nsew signal bidirectional
+flabel metal3 s 25004 4280 25308 4360 0 FreeSans 400 0 0 0 CK_SAMPLE
+port 3 nsew signal bidirectional
+flabel metal3 s 25004 6520 25308 6600 0 FreeSans 400 0 0 0 CK_SAMPLE_BSSW
+port 4 nsew signal bidirectional
+flabel metal3 s 25004 4920 25308 5000 0 FreeSans 400 0 0 0 EN
+port 5 nsew signal bidirectional
+flabel metal3 s 342 -808 646 -728 0 FreeSans 400 0 0 0 D<7>
+port 6 nsew signal bidirectional
+flabel metal3 s 4978 -808 5282 -728 0 FreeSans 400 0 0 0 D<6>
+port 7 nsew signal bidirectional
+flabel metal3 s 5966 -808 6270 -728 0 FreeSans 400 0 0 0 D<5>
+port 8 nsew signal bidirectional
+flabel metal3 s 10602 -808 10906 -728 0 FreeSans 400 0 0 0 D<4>
+port 9 nsew signal bidirectional
+flabel metal3 s 11590 -808 11894 -728 0 FreeSans 400 0 0 0 D<3>
+port 10 nsew signal bidirectional
+flabel metal3 s 16226 -808 16530 -728 0 FreeSans 400 0 0 0 D<2>
+port 11 nsew signal bidirectional
+flabel metal3 s 17214 -808 17518 -728 0 FreeSans 400 0 0 0 D<1>
+port 12 nsew signal bidirectional
+flabel metal3 s 21850 -808 22154 -728 0 FreeSans 400 0 0 0 D<0>
+port 13 nsew signal bidirectional
+flabel metal3 s 874 7280 1178 7360 0 FreeSans 400 0 0 0 DO<7>
+port 14 nsew signal bidirectional
+flabel metal3 s 4446 7280 4750 7360 0 FreeSans 400 0 0 0 DO<6>
+port 15 nsew signal bidirectional
+flabel metal3 s 6498 7280 6802 7360 0 FreeSans 400 0 0 0 DO<5>
+port 16 nsew signal bidirectional
+flabel metal3 s 10070 7280 10374 7360 0 FreeSans 400 0 0 0 DO<4>
+port 17 nsew signal bidirectional
+flabel metal3 s 12122 7280 12426 7360 0 FreeSans 400 0 0 0 DO<3>
+port 18 nsew signal bidirectional
+flabel metal3 s 15694 7280 15998 7360 0 FreeSans 400 0 0 0 DO<2>
+port 19 nsew signal bidirectional
+flabel metal3 s 17746 7280 18050 7360 0 FreeSans 400 0 0 0 DO<1>
+port 20 nsew signal bidirectional
+flabel metal3 s 21318 7280 21622 7360 0 FreeSans 400 0 0 0 DO<0>
+port 21 nsew signal bidirectional
+flabel metal3 s 23370 7280 23674 7360 0 FreeSans 400 0 0 0 TIE_L
+port 25 nsew signal bidirectional
+<< properties >>
+string FIXED_BBOX 0 -808 25308 7360
+<< end >>

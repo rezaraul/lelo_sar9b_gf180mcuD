@@ -1,0 +1,152 @@
+magic
+tech gf180mcuD
+magscale 1 10
+timestamp 1790395200
+<< checkpaint >>
+rect 0 0 2812 17920
+<< metal1 >>
+rect 1786 5240 1986 5288
+rect 1986 10520 2318 10568
+rect 1986 7640 2318 7688
+rect 1986 5240 2034 10568
+rect 246 2840 494 2888
+rect 246 3480 494 3528
+rect 246 9240 494 9288
+rect 246 13720 494 13768
+rect 246 2840 294 13768
+rect 494 13720 694 13768
+rect 694 14520 1026 14568
+rect 694 13720 742 14568
+rect 778 16120 1026 16168
+rect 494 15000 778 15048
+rect 778 15000 826 16168
+rect 1786 17080 1986 17128
+rect 1986 15320 2318 15368
+rect 1986 15320 2034 17128
+rect 778 4920 1026 4968
+rect 778 10680 1026 10728
+rect 778 4920 826 10728
+rect 342 15960 646 16040
+rect 342 16920 646 17000
+rect 342 16280 646 16360
+rect 874 7800 1178 7880
+rect 874 6200 1178 6280
+rect 342 2520 646 2600
+rect 342 10840 646 10920
+<< metal2 >>
+rect 1786 10360 1994 10416
+rect 1994 5080 2318 5136
+rect 1994 6040 2318 6096
+rect 1994 5080 2050 10416
+rect 494 2520 702 2576
+rect 494 3800 702 3856
+rect 702 2520 758 3856
+rect 494 10840 702 10896
+rect 494 12120 702 12176
+rect 702 10840 758 12176
+rect 230 920 494 976
+rect 230 11800 494 11856
+rect 230 14360 494 14416
+rect 230 920 286 14416
+rect 494 14360 702 14416
+rect 702 15480 1026 15536
+rect 702 14360 758 15536
+<< metal4 >>
+rect 1634 0 1846 17920
+rect 874 0 1086 17920
+rect 1634 0 1846 17920
+rect 874 0 1086 17920
+use LELOSAR_TAPCELLB_CV XA0 
+transform 1 0 0 0 1 0
+box 0 0 2812 640
+use LELOSAR_SARKICKHX1_CV XA1 
+transform 1 0 0 0 1 640
+box 0 640 2812 3200
+use LELOSAR_SARCMPHX1_CV XA2 
+transform 1 0 0 0 1 3200
+box 0 3200 2812 5760
+use LELOSAR_IVX4_CV XA2a 
+transform 1 0 0 0 1 5760
+box 0 5760 2812 7360
+use LELOSAR_IVX4_CV XA3a 
+transform 1 0 0 0 1 7360
+box 0 7360 2812 8960
+use LELOSAR_SARCMPHX1_CV XA3 
+transform 1 0 0 0 1 8960
+box 0 8960 2812 11520
+use LELOSAR_SARKICKHX1_CV XA4 
+transform 1 0 0 0 1 11520
+box 0 11520 2812 14080
+use LELOSAR_IVX1_CV XA9 
+transform 1 0 0 0 1 14080
+box 0 14080 2812 14720
+use LELOSAR_NDX1_CV XA10 
+transform 1 0 0 0 1 14720
+box 0 14720 2812 15680
+use LELOSAR_NRX1_CV XA11 
+transform 1 0 0 0 1 15680
+box 0 15680 2812 16640
+use LELOSAR_IVX1_CV XA12 
+transform 1 0 0 0 1 16640
+box 0 16640 2812 17280
+use LELOSAR_TAPCELLB_CV XA13 
+transform 1 0 0 0 1 17280
+box 0 17280 2812 17920
+use LELOSAR_cut_M1M2_2x1 xcut0 
+transform 1 0 1634 0 1 10360
+box 1634 10360 1846 10420
+use LELOSAR_cut_M1M2_2x1 xcut1 
+transform 1 0 2166 0 1 5080
+box 2166 5080 2378 5140
+use LELOSAR_cut_M1M2_2x1 xcut2 
+transform 1 0 2166 0 1 6040
+box 2166 6040 2378 6100
+use LELOSAR_cut_M1M2_2x1 xcut3 
+transform 1 0 434 0 1 2520
+box 434 2520 646 2580
+use LELOSAR_cut_M1M2_2x1 xcut4 
+transform 1 0 434 0 1 3800
+box 434 3800 646 3860
+use LELOSAR_cut_M1M2_2x1 xcut5 
+transform 1 0 434 0 1 10840
+box 434 10840 646 10900
+use LELOSAR_cut_M1M2_2x1 xcut6 
+transform 1 0 434 0 1 12120
+box 434 12120 646 12180
+use LELOSAR_cut_M1M2_2x1 xcut7 
+transform 1 0 342 0 1 920
+box 342 920 554 980
+use LELOSAR_cut_M1M2_2x1 xcut8 
+transform 1 0 342 0 1 11800
+box 342 11800 554 11860
+use LELOSAR_cut_M1M2_2x1 xcut9 
+transform 1 0 342 0 1 14360
+box 342 14360 554 14420
+use LELOSAR_cut_M1M2_2x1 xcut10 
+transform 1 0 342 0 1 14360
+box 342 14360 554 14420
+use LELOSAR_cut_M1M2_2x1 xcut11 
+transform 1 0 874 0 1 15480
+box 874 15480 1086 15540
+<< labels >>
+flabel metal1 s 342 15960 646 16040 0 FreeSans 400 0 0 0 CK_SAMPLE
+port 6 nsew signal bidirectional
+flabel metal1 s 342 16920 646 17000 0 FreeSans 400 0 0 0 CK_CMP
+port 5 nsew signal bidirectional
+flabel metal1 s 342 16280 646 16360 0 FreeSans 400 0 0 0 DONE
+port 7 nsew signal bidirectional
+flabel metal1 s 874 7800 1178 7880 0 FreeSans 400 0 0 0 CNO
+port 4 nsew signal bidirectional
+flabel metal1 s 874 6200 1178 6280 0 FreeSans 400 0 0 0 CPO
+port 3 nsew signal bidirectional
+flabel metal1 s 342 2520 646 2600 0 FreeSans 400 0 0 0 CPI
+port 1 nsew signal bidirectional
+flabel metal1 s 342 10840 646 10920 0 FreeSans 400 0 0 0 CNI
+port 2 nsew signal bidirectional
+flabel metal4 s 1634 0 1846 17920 0 FreeSans 400 0 0 0 AVDD
+port 8 nsew signal bidirectional
+flabel metal4 s 874 0 1086 17920 0 FreeSans 400 0 0 0 AVSS
+port 9 nsew signal bidirectional
+<< properties >>
+string FIXED_BBOX 0 0 2812 17920
+<< end >>

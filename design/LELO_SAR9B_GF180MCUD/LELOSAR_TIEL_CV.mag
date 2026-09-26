@@ -1,0 +1,46 @@
+magic
+tech gf180mcuD
+magscale 1 10
+timestamp 1790395200
+<< checkpaint >>
+rect 0 0 2812 640
+<< metal1 >>
+rect 1786 440 1986 488
+rect 1986 280 2318 328
+rect 1986 280 2034 488
+rect 874 440 1178 520
+rect 2698 280 2926 360
+rect -114 280 114 360
+<< poly >>
+rect 418 292 2394 348
+<< metal4 >>
+rect 1634 0 1846 640
+rect 874 0 1086 640
+rect 1634 0 1846 640
+rect 874 0 1086 640
+use LELOSAR_NCHDL MN0 
+transform 1 0 0 0 1 0
+box 0 0 1406 640
+use LELOSAR_PCHDL MP0 
+transform 1 0 1406 0 1 0
+box 1406 0 2812 640
+use LELOSAR_cut_M1M4_2x1 xcut0 
+transform 1 0 1634 0 1 120
+box 1634 120 1846 180
+use LELOSAR_cut_M1M4_2x1 xcut1 
+transform 1 0 874 0 1 120
+box 874 120 1086 180
+<< labels >>
+flabel metal1 s 874 440 1178 520 0 FreeSans 400 0 0 0 Y
+port 1 nsew signal bidirectional
+flabel metal1 s 2698 280 2926 360 0 FreeSans 400 0 0 0 BULKP
+port 2 nsew signal bidirectional
+flabel metal1 s -114 280 114 360 0 FreeSans 400 0 0 0 BULKN
+port 3 nsew signal bidirectional
+flabel metal4 s 1634 0 1846 640 0 FreeSans 400 0 0 0 AVDD
+port 4 nsew signal bidirectional
+flabel metal4 s 874 0 1086 640 0 FreeSans 400 0 0 0 AVSS
+port 5 nsew signal bidirectional
+<< properties >>
+string FIXED_BBOX 0 0 2812 640
+<< end >>

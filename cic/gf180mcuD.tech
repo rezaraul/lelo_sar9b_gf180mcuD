@@ -1,0 +1,756 @@
+{
+    "version": 2,
+    "layers": {
+        "CO": {
+            "alias": "",
+            "number": 33,
+            "datatype": -1,
+            "material": "cut",
+            "previous": "PO",
+            "next": "M1",
+            "color": "yellow"
+        },
+        "NDIFFC": {
+            "alias": "ndcontact",
+            "number": 33,
+            "datatype": -1,
+            "material": "cut",
+            "previous": "NDIFF",
+            "next": "M1",
+            "color": "yellow"
+        },
+        "PDIFFC": {
+            "alias": "pdcontact",
+            "number": 33,
+            "datatype": -1,
+            "material": "cut",
+            "previous": "PDIFF",
+            "next": "M1",
+            "color": "yellow"
+        },
+        "PTAPC": {
+            "alias": "psc",
+            "number": 33,
+            "datatype": -1,
+            "material": "cut",
+            "previous": "PDIFF",
+            "next": "M1",
+            "color": "yellow"
+        },
+        "NTAPC": {
+            "alias": "nsc",
+            "number": 33,
+            "datatype": -1,
+            "material": "cut",
+            "previous": "PDIFF",
+            "next": "M1",
+            "color": "yellow"
+        },
+        "PCO": {
+            "alias": "pc",
+            "number": 33,
+            "datatype": -1,
+            "material": "cut",
+            "previous": "PO",
+            "next": "M1",
+            "color": "yellow"
+        },
+        "OD": {
+            "alias": "",
+            "number": 22,
+            "datatype": -1,
+            "material": "diffusion",
+            "previous": "",
+            "next": "PTAPC",
+            "pin": "OD_pin",
+            "color": "green"
+        },
+        "PDIFF": {
+            "alias": "pdiff",
+            "number": 22,
+            "datatype": -1,
+            "material": "diffusion",
+            "previous": "",
+            "next": "CO",
+            "pin": "OD_pin",
+            "color": "green"
+        },
+        "PTAP": {
+            "alias": "psd",
+            "number": 22,
+            "datatype": -1,
+            "material": "diffusion",
+            "previous": "",
+            "next": "CO",
+            "pin": "OD_pin",
+            "color": "green"
+        },
+        "NTAP": {
+            "alias": "nsd",
+            "number": 22,
+            "datatype": -1,
+            "material": "diffusion",
+            "previous": "",
+            "next": "CO",
+            "pin": "OD_pin",
+            "color": "green"
+        },
+        "PDIFFB": {
+            "alias": "pdiff",
+            "number": 22,
+            "datatype": -1,
+            "material": "diffusion",
+            "previous": "",
+            "next": "CO",
+            "pin": "OD_pin",
+            "color": "green"
+        },
+        "NDIFF": {
+            "alias": "ndiff",
+            "number": 22,
+            "datatype": -1,
+            "material": "diffusion",
+            "previous": "",
+            "next": "CO",
+            "pin": "OD_pin",
+            "color": "green"
+        },
+        "NDIFFB": {
+            "alias": "ndiff",
+            "number": 22,
+            "datatype": -1,
+            "material": "diffusion",
+            "previous": "",
+            "next": "CO",
+            "pin": "OD_pin",
+            "color": "green"
+        },
+        "DMYPO": {
+            "alias": "poly",
+            "number": 30,
+            "datatype": -1,
+            "material": "poly",
+            "previous": "",
+            "next": "CO",
+            "pin": "PO_pin",
+            "color": "red"
+        },
+        "PO": {
+            "alias": "poly",
+            "number": 30,
+            "datatype": -1,
+            "material": "poly",
+            "previous": "",
+            "next": "CO",
+            "pin": "PO_pin",
+            "color": "red"
+        },
+        "OP": {
+            "alias": "",
+            "number": 30,
+            "datatype": -1,
+            "material": "poly",
+            "previous": "",
+            "next": "CO",
+            "pin": "PO_pin",
+            "color": "yellow"
+        },
+        "POB": {
+            "alias": "poly",
+            "number": 30,
+            "datatype": -1,
+            "material": "implant",
+            "previous": "",
+            "next": "CO",
+            "pin": "PO_pin",
+            "color": "red"
+        },
+        "POXR": {
+            "alias": "hires",
+            "number": 30,
+            "datatype": -1,
+            "material": "poly",
+            "previous": "",
+            "next": "CO",
+            "pin": "PO_pin",
+            "color": "red"
+        },
+        "CPOXR": {
+            "alias": "polycontact",
+            "number": 30,
+            "datatype": -1,
+            "material": "poly",
+            "previous": "",
+            "next": "CO",
+            "pin": "PO_pin",
+            "color": "red"
+        },
+        "POR": {
+            "alias": "ppolyres",
+            "number": 30,
+            "datatype": -1,
+            "material": "poly",
+            "previous": "",
+            "next": "CO",
+            "pin": "PO_pin",
+            "color": "red"
+        },
+        "CPOR": {
+            "alias": "polycontact",
+            "number": 30,
+            "datatype": -1,
+            "material": "poly",
+            "previous": "",
+            "next": "CO",
+            "pin": "PO_pin",
+            "color": "red"
+        },
+        "PO_pin": {
+            "alias": "",
+            "number": 30,
+            "datatype": 10
+        },
+        "M1": {
+            "alias": "metal1",
+            "number": 34,
+            "datatype": -1,
+            "material": "metal",
+            "previous": "",
+            "next": "VIA1",
+            "pin": "M1_pin",
+            "res": "M1_res",
+            "color": "blue"
+        },
+        "M1_pin": {
+            "alias": "",
+            "number": 34,
+            "datatype": 10,
+            "material": "implant",
+            "fill": "fill",
+            "color": "blue"
+        },
+        "M1_res": {
+            "alias": "rmetal1",
+            "number": 110,
+            "datatype": 11,
+            "material": "metalres"
+        },
+        "M2": {
+            "alias": "metal2",
+            "number": 36,
+            "datatype": -1,
+            "material": "metal",
+            "previous": "VIA1",
+            "next": "VIA2",
+            "pin": "M2_pin",
+            "res": "M2_res",
+            "color": "goldenrod"
+        },
+        "M2_pin": {
+            "alias": "",
+            "number": 36,
+            "datatype": 10,
+            "material": "implant",
+            "fill": "fill",
+            "color": "goldenrod"
+        },
+        "M2_res": {
+            "alias": "rmetal2",
+            "number": 110,
+            "datatype": 12,
+            "material": "metalres"
+        },
+        "M3": {
+            "alias": "metal3",
+            "number": 42,
+            "datatype": -1,
+            "material": "metal",
+            "previous": "VIA2",
+            "next": "VIA3",
+            "pin": "M3_pin",
+            "res": "M3_res",
+            "color": "aqua"
+        },
+        "M3_pin": {
+            "alias": "",
+            "number": 42,
+            "datatype": 10,
+            "material": "implant",
+            "fill": "fill",
+            "color": "aqua"
+        },
+        "M3_res": {
+            "alias": "rmetal3",
+            "number": 110,
+            "datatype": 13,
+            "material": "metalres"
+        },
+        "M4": {
+            "alias": "metal4",
+            "number": 46,
+            "datatype": -1,
+            "material": "metal",
+            "previous": "VIA3",
+            "next": "VIA4",
+            "pin": "M4_pin",
+            "res": "M4_res",
+            "color": "darkgreen"
+        },
+        "M4_pin": {
+            "alias": "",
+            "number": 46,
+            "datatype": 10,
+            "material": "implant",
+            "fill": "fill",
+            "color": "darkgreen"
+        },
+        "M4_res": {
+            "alias": "rmetal4",
+            "number": 110,
+            "datatype": 14,
+            "material": "metalres"
+        },
+        "M5": {
+            "alias": "metal5",
+            "number": 53,
+            "datatype": -1,
+            "material": "metal",
+            "previous": "VIA4",
+            "next": "",
+            "pin": "M5_pin",
+            "res": "M5_res",
+            "color": "brown"
+        },
+        "M5_pin": {
+            "alias": "",
+            "number": 53,
+            "datatype": 10,
+            "material": "implant",
+            "fill": "fill",
+            "color": "brown"
+        },
+        "M5_res": {
+            "alias": "rmetal5",
+            "number": 110,
+            "datatype": 15,
+            "material": "metalres"
+        },
+        "VIA1": {
+            "alias": "via1",
+            "number": 35,
+            "datatype": -1,
+            "material": "cut",
+            "previous": "M1",
+            "next": "M2",
+            "color": "blue",
+            "fill": "fill"
+        },
+        "VIA2": {
+            "alias": "via2",
+            "number": 38,
+            "datatype": -1,
+            "material": "cut",
+            "previous": "M2",
+            "next": "M3",
+            "color": "yellow",
+            "fill": "fill"
+        },
+        "VIA3": {
+            "alias": "via3",
+            "number": 40,
+            "datatype": -1,
+            "material": "cut",
+            "previous": "M3",
+            "next": "M4",
+            "color": "cyan",
+            "fill": "fill"
+        },
+        "VIA4": {
+            "alias": "via4",
+            "number": 41,
+            "datatype": -1,
+            "material": "cut",
+            "previous": "M4",
+            "next": "M5",
+            "color": "green",
+            "fill": "fill"
+        },
+        "PR": {
+            "alias": "",
+            "number": 0,
+            "datatype": 20,
+            "fill": "nofill",
+            "color": "red"
+        },
+        "NW": {
+            "alias": "nwell",
+            "number": 21,
+            "datatype": -1,
+            "material": "implant",
+            "color": "red",
+            "fill": "nofill"
+        },
+        "PP": {
+            "alias": "pdiff",
+            "number": 31,
+            "datatype": -1,
+            "material": "implant",
+            "color": "pink",
+            "fill": "nofill"
+        },
+        "PPE": {
+            "alias": "pdiff",
+            "number": 31,
+            "datatype": -1,
+            "material": "implant",
+            "color": "pink",
+            "fill": "nofill"
+        },
+        "NP": {
+            "alias": "ndiff",
+            "number": 32,
+            "datatype": -1,
+            "material": "implant",
+            "color": "cyan",
+            "fill": "nofill"
+        },
+        "NPE": {
+            "alias": "ndiff",
+            "number": 32,
+            "datatype": -1,
+            "material": "implant",
+            "color": "cyan",
+            "fill": "nofill"
+        },
+        "NWT": {
+            "alias": "nwell",
+            "number": 21,
+            "datatype": -1,
+            "material": "implant",
+            "color": "red",
+            "fill": "nofill"
+        },
+        "PWT": {
+            "alias": "pwell",
+            "number": 204,
+            "datatype": -1,
+            "material": "implant",
+            "color": "red",
+            "fill": "nofill"
+        },
+        "MIM": {
+            "alias": "mimcap",
+            "number": 75,
+            "datatype": -1,
+            "material": "implant",
+            "color": "aqua",
+            "fill": "nofill"
+        },
+        "MIMC": {
+            "alias": "mimcapcontact",
+            "number": 75,
+            "datatype": -1,
+            "material": "implant",
+            "color": "cyan",
+            "fill": "nofill"
+        },
+        "TXT": {
+            "alias": "",
+            "number": 58,
+            "datatype": -1,
+            "material": "marker",
+            "color": "black",
+            "fill": "fill"
+        }
+    },
+    "technology": {
+        "gamma": 100,
+        "grid": 5,
+        "spiceunit": 1,
+        "techlib": "gf180mcuD",
+        "devices": {
+            "rppo": {
+                "name": "symbols__ppolyf_u_1k",
+                "devicetype": "XR",
+                "ports": [
+                    "P",
+                    "M",
+                    "B"
+                ]
+            },
+            "mim": {
+                "name": "symbols__cap_mim_2f0fF",
+                "devicetype": "XC",
+                "ports": [
+                    "G",
+                    "B"
+                ],
+                "propertymap": {
+                    "l": {
+                        "name": "L",
+                        "str": "e-6"
+                    },
+                    "w": {
+                        "name": "W",
+                        "str": "e-6"
+                    },
+                    "L": {
+                        "name": "L",
+                        "str": "e-6"
+                    },
+                    "W": {
+                        "name": "W",
+                        "str": "e-6"
+                    }
+                }
+            },
+            "nch_lvt": {
+                "name": "symbols__nfet_03v3",
+                "ports": [
+                    "D",
+                    "G",
+                    "S",
+                    "B"
+                ],
+                "devicetype": "XM"
+            },
+            "pch_lvt": {
+                "inherit": "nch_lvt",
+                "devicetype": "XM",
+                "name": "symbols__pfet_03v3"
+            },
+            "pch": {
+                "inherit": "nch_lvt",
+                "devicetype": "XM",
+                "name": "symbols__pfet_03v3"
+            },
+            "nch": {
+                "inherit": "nch_lvt",
+                "devicetype": "XM",
+                "name": "symbols__nfet_03v3"
+            },
+            "mresM1": {
+                "name": "symbols__rm1",
+                "devicetype": "XR",
+                "ports": [
+                    "M",
+                    "P"
+                ]
+            },
+            "mresM2": {
+                "name": "symbols__rm2",
+                "devicetype": "XR",
+                "ports": [
+                    "M",
+                    "P"
+                ]
+            },
+            "mresM3": {
+                "name": "symbols__rm3",
+                "devicetype": "XR",
+                "ports": [
+                    "M",
+                    "P"
+                ]
+            },
+            "mresM4": {
+                "name": "symbols__rm4",
+                "devicetype": "XR",
+                "ports": [
+                    "M",
+                    "P"
+                ]
+            },
+            "mres": {
+                "name": "symbols__rm1",
+                "devicetype": "XR",
+                "ports": [
+                    "M",
+                    "P"
+                ]
+            }
+        },
+        "symbol_lib": "cpdk",
+        "symbol_libs": [
+            "../../cpdk/design/cic",
+            "../../cpdk/design/cic_wbulk",
+            "$PDK_ROOT/$PDK/libs.tech/xschem/symbols",
+            "../tech/xschem/symbols"
+        ]
+    },
+    "rules": {
+        "ROUTE": {
+            "horizontalgrid": 38,
+            "verticalgrid": 40
+        },
+        "PPT": {
+            "enclosure": 0
+        },
+        "NPT": {
+            "enclosure": 0
+        },
+        "NWT": {
+            "enclosure": 0
+        },
+        "PFIELD": {
+            "enclosure": 0,
+            "digitalspace": 0
+        },
+        "PP": {
+            "enclosure": 23,
+            "ODencOpposite": 23,
+            "digitalspace": 0
+        },
+        "NP": {
+            "enclosure": 23,
+            "ODencOpposite": 23,
+            "digitalspace": 0
+        },
+        "NW": {
+            "enclosure": 45,
+            "digitalspace": 0
+        },
+        "CO": {
+            "space": 28,
+            "width": 22,
+            "height": 22
+        },
+        "PTAPC": {
+            "space": 0,
+            "width": 40,
+            "height": 40
+        },
+        "VIA1": {
+            "space": 36,
+            "width": 28,
+            "height": 28
+        },
+        "VIA2": {
+            "space": 36,
+            "width": 28,
+            "height": 28
+        },
+        "VIA3": {
+            "space": 36,
+            "width": 28,
+            "height": 28
+        },
+        "VIA4": {
+            "space": 36,
+            "width": 28,
+            "height": 28
+        },
+        "PDIFF": {
+            "PTAPCencOpposite": 8,
+            "enclosure": 8,
+            "PTAPCenclosure": 8
+        },
+        "PTAP": {
+            "PTAPCencOpposite": 8,
+            "enclosure": 8,
+            "PTAPCenclosure": 8
+        },
+        "PLVT": {
+            "space": 60,
+            "width": 28,
+            "mingatelength": 28,
+            "enclosure": 10
+        },
+        "NLVT": {
+            "space": 60,
+            "width": 28,
+            "mingatelength": 28,
+            "enclosure": 10
+        },
+        "PO": {
+            "space": 60,
+            "width": 28,
+            "mingatelength": 28,
+            "enclosure": 10
+        },
+        "POB": {
+            "space": 60,
+            "width": 60,
+            "mingatelength": 60,
+            "enclosure": 10
+        },
+        "OD": {
+            "space": 28,
+            "enclosure": 8,
+            "PTAPCenclosure": 8,
+            "COencOpposite": 8,
+            "PTAPCencOpposite": 8
+        },
+        "ODB": {
+            "space": 28,
+            "enclosure": 8,
+            "COencOpposite": 8
+        },
+        "NDIFFC": {
+            "width": 22
+        },
+        "PDIFFC": {
+            "width": 22
+        },
+        "M1": {
+            "space": 24,
+            "width": 24,
+            "minwidth": 24,
+            "VIA1enclosure": 1,
+            "VIA1encOpposite": 7,
+            "capspace": 32,
+            "PTAPCenclosure": 0
+        },
+        "M2": {
+            "space": 28,
+            "width": 28,
+            "minwidth": 28,
+            "VIA1enclosure": 1,
+            "VIA1encOpposite": 7,
+            "VIA2enclosure": 1,
+            "VIA2encOpposite": 7,
+            "capspace": 32
+        },
+        "M3": {
+            "space": 28,
+            "width": 28,
+            "minwidth": 28,
+            "VIA2enclosure": 1,
+            "VIA2encOpposite": 7,
+            "VIA3enclosure": 1,
+            "VIA3encOpposite": 7,
+            "capspace": 32,
+            "cap_width": 40
+        },
+        "M4": {
+            "space": 28,
+            "width": 28,
+            "minwidth": 28,
+            "VIA3enclosure": 1,
+            "VIA3encOpposite": 7,
+            "VIA4enclosure": 1,
+            "VIA4encOpposite": 7,
+            "capspace": 32,
+            "cap_width": 28
+        },
+        "M5": {
+            "space": 46,
+            "width": 44,
+            "minwidth": 44,
+            "VIA4enclosure": 8,
+            "VIA4encOpposite": 16,
+            "capspace": 46,
+            "cap_width": 44
+        },
+        "OP": {
+            "POenclosure": 0,
+            "POencOpposite": 80
+        },
+        "RE": {
+            "POenclosure": 96
+        },
+        "PRES": {
+            "POenclosure": 96
+        }
+    }
+}

@@ -1,0 +1,48 @@
+ Netlist File
+ LELOSAR_NDTRIX1_CV
+ N1
+MN2/D
+MN0/S
+
+ RN
+MN2/G
+MP2/G
+
+ AVSS
+MN2/S
+
+ BULKN
+MN2/B
+MN0/B
+MN1/B
+
+ N2
+MN0/D
+MN1/S
+MP2/S
+MP0/D
+MP1/S
+
+ A
+MN0/G
+MP0/G
+
+ Y
+MN1/D
+MP1/D
+
+ C
+MN1/G
+
+ AVDD
+MP2/D
+MP0/S
+
+ BULKP
+MP2/B
+MP0/B
+MP1/B
+
+ CN
+MP1/G
+

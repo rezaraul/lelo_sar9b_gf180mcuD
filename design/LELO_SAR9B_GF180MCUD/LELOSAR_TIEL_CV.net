@@ -1,0 +1,22 @@
+ Netlist File
+ LELOSAR_TIEL_CV
+ Y
+MN0/D
+
+ A
+MN0/G
+MP0/D
+MP0/G
+
+ AVSS
+MN0/S
+
+ BULKN
+MN0/B
+
+ AVDD
+MP0/S
+
+ BULKP
+MP0/B
+

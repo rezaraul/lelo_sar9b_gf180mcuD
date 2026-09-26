@@ -1,0 +1,17 @@
+magic
+tech gf180mcuD
+magscale 1 10
+timestamp 1790395200
+<< checkpaint >>
+rect 0 0 60 212
+<< metal2 >>
+rect 0 0 60 212
+<< via2 >>
+rect 2 14 58 70
+rect 2 142 58 198
+<< metal3 >>
+rect 0 0 60 212
+<< labels >>
+<< properties >>
+string FIXED_BBOX 0 0 60 212
+<< end >>

@@ -1,0 +1,103 @@
+magic
+tech gf180mcuD
+magscale 1 10
+timestamp 1790395200
+<< checkpaint >>
+rect 0 0 2812 1600
+<< metal1 >>
+rect 1026 440 1226 488
+rect 1026 1080 1226 1128
+rect 1226 440 1786 488
+rect 1226 1080 1786 1128
+rect 1226 440 1274 1128
+rect 470 280 518 1320
+rect 2294 280 2342 1320
+rect 1002 440 1050 520
+rect 1002 760 1050 840
+rect 1002 1080 1050 1160
+rect 1762 440 1810 520
+rect 1762 760 1810 840
+rect 1762 1080 1810 1160
+rect 342 280 646 360
+rect 874 440 1178 520
+rect 2698 280 2926 360
+rect -114 280 114 360
+<< poly >>
+rect 418 292 2394 348
+rect 418 612 2394 668
+rect 418 932 2394 988
+rect 418 1252 2394 1308
+<< metal3 >>
+rect 1786 120 1994 176
+rect 1786 760 1994 816
+rect 1786 1400 1994 1456
+rect 1994 760 2348 816
+rect 1994 120 2050 1456
+<< metal4 >>
+rect 2242 760 2454 972
+rect 874 0 1086 1600
+rect 874 0 1086 1600
+use LELOSAR_NCHDL MN0 
+transform 1 0 0 0 1 0
+box 0 0 1406 640
+use LELOSAR_NCHDL MN1 
+transform 1 0 0 0 1 320
+box 0 320 1406 960
+use LELOSAR_NCHDL MN2 
+transform 1 0 0 0 1 640
+box 0 640 1406 1280
+use LELOSAR_NCHDL MN3 
+transform 1 0 0 0 1 960
+box 0 960 1406 1600
+use LELOSAR_PCHDL MP0 
+transform 1 0 1406 0 1 0
+box 1406 0 2812 640
+use LELOSAR_PCHDL MP1 
+transform 1 0 1406 0 1 320
+box 1406 320 2812 960
+use LELOSAR_PCHDL MP2 
+transform 1 0 1406 0 1 640
+box 1406 640 2812 1280
+use LELOSAR_PCHDL MP3 
+transform 1 0 1406 0 1 960
+box 1406 960 2812 1600
+use LELOSAR_cut_M3M4_2x2 xcut0 
+transform 1 0 2242 0 1 760
+box 2242 760 2454 972
+use LELOSAR_cut_M1M3_2x1 xcut1 
+transform 1 0 1634 0 1 120
+box 1634 120 1846 180
+use LELOSAR_cut_M1M3_2x1 xcut2 
+transform 1 0 1634 0 1 760
+box 1634 760 1846 820
+use LELOSAR_cut_M1M3_2x1 xcut3 
+transform 1 0 1634 0 1 1400
+box 1634 1400 1846 1460
+use LELOSAR_cut_M1M4_2x1 xcut4 
+transform 1 0 874 0 1 120
+box 874 120 1086 180
+use LELOSAR_cut_M1M4_2x1 xcut5 
+transform 1 0 874 0 1 760
+box 874 760 1086 820
+use LELOSAR_cut_M1M4_2x1 xcut6 
+transform 1 0 874 0 1 760
+box 874 760 1086 820
+use LELOSAR_cut_M1M4_2x1 xcut7 
+transform 1 0 874 0 1 1400
+box 874 1400 1086 1460
+<< labels >>
+flabel metal1 s 342 280 646 360 0 FreeSans 400 0 0 0 A
+port 1 nsew signal bidirectional
+flabel metal1 s 874 440 1178 520 0 FreeSans 400 0 0 0 Y
+port 2 nsew signal bidirectional
+flabel metal4 s 2242 760 2454 972 0 FreeSans 400 0 0 0 VREF
+port 3 nsew signal bidirectional
+flabel metal1 s 2698 280 2926 360 0 FreeSans 400 0 0 0 BULKP
+port 5 nsew signal bidirectional
+flabel metal1 s -114 280 114 360 0 FreeSans 400 0 0 0 BULKN
+port 6 nsew signal bidirectional
+flabel metal4 s 874 0 1086 1600 0 FreeSans 400 0 0 0 AVSS
+port 4 nsew signal bidirectional
+<< properties >>
+string FIXED_BBOX 0 0 2812 1600
+<< end >>

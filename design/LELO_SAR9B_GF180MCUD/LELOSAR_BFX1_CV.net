@@ -1,0 +1,32 @@
+ Netlist File
+ LELOSAR_BFX1_CV
+ AVSS
+MN0/D
+MN1/S
+
+ A
+MN0/G
+MP0/G
+
+ B
+MN0/S
+MN1/G
+MP0/S
+MP1/G
+
+ BULKN
+MN0/B
+MN1/B
+
+ Y
+MN1/D
+MP1/D
+
+ AVDD
+MP0/D
+MP1/S
+
+ BULKP
+MP0/B
+MP1/B
+
